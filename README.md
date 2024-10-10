@@ -1,1 +1,1 @@
-# A simpple E-Commerce App with advanced filtering
+# A simple Javascript E-Commerce App with advanced filtering
