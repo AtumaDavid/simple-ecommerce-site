@@ -121,9 +121,9 @@ function App() {
   return (
     <>
       <Sidebar handleRadioChange={handleRadioChange} />
-      <Navigation />
-      <Recommended />
-      <Products />
+      <Navigation query={query} handleInputChange={handleInputChange} />
+      <Recommended handleButtonClick={handleButtonClick} />
+      <Products filteredData={filteredData} />
     </>
   );
 }
