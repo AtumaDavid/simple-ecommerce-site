@@ -116,7 +116,7 @@ function App() {
           newPrice={product.newPrice}
         />
       ));
-  }, [productsDB, query, selectedOption]);
+  }, [query, selectedOption]);
 
   return (
     <>
